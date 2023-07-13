@@ -14,7 +14,7 @@ public class CourseService {
     @Autowired
     private CourseRepo courseRepo;
 
-    public List<Course> getAllStudents() {
+    public List<Course> getAllCourses() {
         return courseRepo.findAll();
     }
 }
